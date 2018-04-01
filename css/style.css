@@ -1,0 +1,942 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/***** Common ******/
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+.view-blog-details{
+    height:100%;
+    width: auto;
+}
+.home_blog_para{
+    max-height: 200px;
+    min-height: 200px;
+    overflow: hidden;
+}
+.blog-author-alignment{
+text-align: left;
+}
+.content_alignmnet{
+    text-align: justify    
+}
+.landing_blog_details {
+    text-align :justify !important;    
+}
+.mainlanding_blog_img img{
+   text-align:;
+}
+.mainlanding_blog_img img{
+ width: 100%;
+ height: 250px  
+}
+.landing_blog_img{
+    width: auto;
+    height: 250px;
+}
+.no-padding{
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+*{
+    outline: none;
+}
+.my-button {
+    width: 180px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    background: #f4be18;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0;
+}
+
+/****** top head section *******/
+
+.top-head-section {
+    background: #005bb4;
+    min-height: 5vh;
+}
+/*.col-90 {
+    width: 85%;
+    margin: 0 auto;
+    }*/
+    .gradient .col-90 {
+        display: table;
+    }
+    .top-head-section-inner label {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+        margin: 0;
+        line-height: 45px;
+    }
+    .top-head-section-inner label .fa {
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    .top-head-section-inner ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        line-height: 49px;
+    }
+    .top-head-section-inner ul li {
+        display: inline-block;
+        padding: 0 2px;
+    }
+    .top-head-section-inner ul li a{
+        padding: 2px;
+    }
+    .ul-left, .ul-right {
+        display: inline-block;
+    }
+    .ul-right {
+        float: right;
+    }
+    .ul-left li:first-child a {
+        border-right: 2px solid #fff;
+        padding-right: 10px;
+    }
+    .ul-left li a {
+        color: #fff;
+        font-weight: 300;
+    }
+    .ul-right li a {
+        color: #fff;
+        font-size: 15px;
+        margin: 0 0 0 15px;
+    }
+    .banner-section .carousel-inner .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /****** top head section end *******/
+
+    /****** nav header *******/
+
+    .nav-head-banner {
+        border: none;
+        background: #fff;
+        margin: 0;
+        min-height: 8vh;
+    }
+    .nav-head-banner .navbar-brand {
+        padding: 22px 0;
+    }
+    .nav-head-banner .navbar-nav li {
+        padding: 18px 0;
+    }
+    .nav-head-banner .navbar-nav li a {
+        color: #005bb4;
+        font-size: 15px;
+    }
+
+    /****** nav header end *******/
+
+    /****** banner section *******/
+
+    .my-carousel .left.carousel-control,
+    .my-carousel .right.carousel-control  {
+        background: transparent;
+        opacity: 1;
+        text-shadow: none;
+        width: auto;
+        height: auto;
+        color: #005bb4;
+    }
+    .my-carousel .left.carousel-control span.glyphicon, .my-carousel .right.carousel-control span.glyphicon {
+        padding: 35px 25px;
+        background: rgba(255, 255, 255, 0.55);
+        border-radius: 2px;
+        top: 40%;
+    }
+    .my-carousel .carousel-control .glyphicon-chevron-left:before {
+        position: absolute;
+        top: 18px;
+        left: 15px;
+    }
+    .my-carousel .carousel-control .glyphicon-chevron-right:before {
+        position: absolute;
+        top: 18px;
+        right: 15px;
+    }
+    .my-carousel .carousel-inner {
+        height: 87vh;
+        width: 100%;
+    }
+    .banner-section .carousel-inner .item {
+        height: 87vh;
+        width: 100%;
+    }
+
+    .banner-content {
+        position: absolute;
+        bottom: 45%;
+        width: 100%;
+    }
+    .banner-content .col-90 {
+        width: 85%;
+    }
+    .banner-inner {
+        display: inline-block;
+        width: 580px;
+        background: rgba(0, 91, 180, 0.60);
+        color: #fff;
+        padding: 30px 50px;
+    }
+    .banner-inner h1 {
+        font-size: 35px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .head-trail {
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .head-trail span {
+        padding-top: 15px;
+        display: block;
+        margin: 0;
+    }
+    .my-carousel .carousel-indicators {
+        display: none;
+    }
+    .down-arrow {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+    }
+    .fb {
+        padding: 0 8px;
+    }
+
+    /****** banner section end *******/
+
+
+    /****** service section *******/
+
+    .service, .blog {
+        padding: 3% 0;
+    }
+    .header {
+        font-size: 30px;
+        color: #646463;
+        margin: 0;
+    }
+    .header-section {
+        text-align: center;
+    }
+    .header-section .header {
+        display: inline-block;
+        border-bottom: 3px solid #f4be18;
+        line-height: 45px;
+    }
+    .blue-div-1 {
+        background: #005bb4;
+        padding: 40px 20px;
+        min-height: 265px;
+        z-index: 10;
+        padding-bottom: 10px;
+    }
+    .blue-div-2 {
+        background: #1c6fc1;
+        padding: 40px 20px;
+        min-height: 265px;
+        z-index: 20;
+        padding-bottom: 10px;
+    }
+    .blue-div-3 {
+        background: #2676c4;
+        padding: 40px 20px;
+        min-height: 265px;
+        z-index: 30;
+        padding-bottom: 10px;
+    }
+    .blue-div-4 {
+        background: #1c6fc1;
+        padding: 40px 20px;
+        min-height: 265px;
+        z-index: 40;
+        padding-bottom: 10px;
+    }
+    .blue-div-1, .blue-div-2, .blue-div-3, .blue-div-4 {
+        -webkit-transition: all 200ms ease-in;
+        -webkit-transform: scale(1);
+        -ms-transition: all 200ms ease-in;
+        -ms-transform: scale(1);
+        -moz-transition: all 200ms ease-in;
+        -moz-transform: scale(1);
+        transition: all 200ms ease-in;
+        transform: scale(1);
+        position: relative;
+        cursor: pointer;
+    }
+    .blue-div-1:hover, .blue-div-2:hover, .blue-div-3:hover, .blue-div-4:hover  {
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.31);
+        -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.31);
+        box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.31);
+        z-index: 99;
+        -webkit-transition: all 200ms ease-in;
+        -webkit-transform: scale(1.5);
+        -ms-transition: all 200ms ease-in;
+        -ms-transform: scale(1.1);
+        -moz-transition: all 200ms ease-in;
+        -moz-transform: scale(1.1);
+        transition: all 200ms ease-in;
+        transform: scale(1.1);
+        position: relative;
+    }
+    .blue-div-1 h3, .blue-div-2 h3, .blue-div-3 h3, .blue-div-4 h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    .blue-div-1 p, .blue-div-2 p, .blue-div-3 p, .blue-div-4 p {
+        color: #fff;
+        font-weight: 300;
+        margin: 0;
+    }
+    .common-div {
+        margin-top: 5em;
+        display: inline-block;
+        width: 100%;
+    }
+
+    /****** service section end *******/
+
+    /****** About section *******/
+
+    .about-left {
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+    .about-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about-right {
+        background: #005bb4;
+        margin-left: -10%;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        min-height: 530px;
+        padding: 40px;
+        position: relative;
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.31);
+        -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.31);
+        box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.31);
+    }
+    .about-right .header {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .about-right label, .about-right p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #fff;
+        margin-bottom: 20px;
+        line-height: 28px;
+    }
+    .read-more, .read-more:hover {
+        font-size: 15px;
+        color: #f4be18;
+        position: absolute;
+        bottom: 35px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    /****** About section end *******/
+
+
+    /****** blog section *******/
+
+    .header-section p {
+        color: #646463;
+        font-size: 18px;
+        font-weight: 300;
+        width: 80%;
+        margin: 40px auto;
+    }
+    .blog-img {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        position: relative;
+    }
+    .blog-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .blog-content h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+        padding: 20px 0;
+    }
+    .blog-content p {
+        font-size: 16px;
+        color: #636363;
+        font-weight: 400;
+        margin: 0;
+    }
+    .blog-content h2 
+    {
+            min-height: 120px;
+    }
+    .read-more-blog {
+        font-size: 18px;
+        color: #333;
+        padding: 20px 0;
+        display: block;
+    }
+     .read-more-blog:hover {
+            text-decoration: none;
+    }
+    .blog-content {
+        background: #f5f5f5;
+        padding: 0 25px;
+    }
+    .date-blog label {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 26px;
+        margin: 0;
+    }
+    .date-blog label span {
+        font-size: 20px;
+        display: block;
+    }
+    .date-blog {
+        position: absolute;
+        top: 0;
+        background: #005bb4;
+        color: #fff;
+        text-align: center;
+        padding: 12px 15px;
+    }
+
+    /****** blog section end *******/
+
+
+    /****** contact section *******/
+
+    .contact-bg {
+        background-image: url(../images/contact.png);
+        width: 100%;
+        min-height: 500px;
+    }
+    .right-contact {
+        margin-top: 32px;
+    }
+    .left-contact input {
+        border: 1px solid #d7d7d7;
+        border-radius: 0;
+        box-shadow: none;
+        height: 45px;
+        background: rgba(255, 255, 255, 0.35);
+    }
+    .left-contact textarea {
+        border: 1px solid #d7d7d7;
+        border-radius: 0;
+        box-shadow: none;
+        background: rgba(255, 255, 255, 0.35);
+    }
+    .left-contact .form-group {
+        margin-bottom: 30px;
+    }
+    .left-contact {
+        margin-top: 6em;
+    }
+
+    /****** contact section end *******/
+
+
+    /****** footer section *******/
+
+    section.footer {
+        background: #4699df;
+        margin-top: -5px;
+        clear: both;
+    }
+    .footer label {
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    .contac-dt {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    .contac-dt a{color: #ffffff;}
+    .footer ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    .footer ul li {
+        padding: 4px 0;
+    }
+    .footer ul li a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        padding: 2px 0px;
+        display: block;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .footer .liver-foot li {
+        display: inline-block;
+    }
+    .footer .liver-foot li {
+        display: inline-block;
+        border: 1px solid #fff;
+        padding: 5px 18px;
+        margin: 5px 0px;
+        margin-right: 20px;
+    }
+    section.footer .row {
+        padding: 2% 0;
+    }
+    .footer-bottom {
+        background: #005bb4;
+        padding: 20px;
+        text-align: center;
+    }
+    .footer-bottom .link {
+        display: block;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 300;
+        padding-bottom: 15px;
+    }
+
+    /****** footer section end *******/
+
+
+    /******=========================*******/
+    /******=========== Contact page ==============*******/
+    /******=========================*******/
+
+    .banner {
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+        position: relative;
+    }
+    .banner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .banner h2 {
+        position: absolute;
+        top: 42%;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        color: #fff;
+        font-size: 50px;
+        font-weight: 300;
+    }
+    .common-padd {
+        padding: 4em 0;
+    }
+    .title {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .contact-form {
+        margin-top: 6em;
+    }
+    .contact-form input, .contact-form textarea {
+        border-radius: 0;
+        height: 50px;
+        border: none;
+        box-shadow: none;
+        border-bottom: 1px solid #ddd;
+        outline: none;
+    }
+    .contact-form .form-group {
+        margin-bottom: 35px;
+    }
+    .contact-form input:focus, .contact-form textarea:focus {
+        box-shadow: none;
+    }
+    .contact-form button{
+        margin-top: 25px;
+        float: right;
+    }
+
+    /******=========== Contact page end ==============*******/
+
+
+    /******=========================*******/
+    /******=========== blog page ==============*******/
+    /******=========================*******/
+
+    .blog-input-div input {
+        width: 250px;
+        display: inline-block;
+        height: 40px;
+        border-radius: 3px 0px 0px 3px;
+        box-shadow: none;
+        border: 1px solid #f4be18;
+    }
+    .blog-btn {
+        background: #f4be18;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 0 3px 3px 0;
+        margin-left: -4px;
+        color: #fff;
+    }
+    .blog-main {
+        margin-top: 4em;
+    }
+    .blog-sec {
+        padding-bottom: 25px;
+        padding-top: 25px;
+        border-bottom: 1px solid #cccccc;
+    }
+    .blog-sec-content h3 {
+        margin: 15px 0;
+        font-size: 22px;
+    }
+    .blog-sec-content p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .blog-sec-readmore {
+        color: #f4be18;
+        font-size: 15px;
+    }
+    .blog-sec-img {
+        width: 100%;
+        height: 230px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .blog-sec-img img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .blog-botm-read {
+        color: #f4be18;
+        font-size: 24px;
+        font-weight: 300;
+        text-decoration: underline;
+    }
+    .more-read {
+        margin-top: 4em;
+    }
+
+    /******=========== blog page end ==============*******/
+
+    /******=========== about page ==============*******/
+
+    .about-main .title-about {
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 300;
+        border-bottom: 3px solid #f4be18;
+        display: inline-block;
+        line-height: 40px;
+    }
+    .about-main p {
+        font-size: 16px;
+        color: #4d4d4d;
+        letter-spacing: 0.2px;
+    }
+    .media-img-div {
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+        margin-top: 12%;
+    }
+    .media-img-div img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .about-main-inner {
+        margin-top: 4em;
+        margin-bottom: 3em;
+    }
+    .media-content h4 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    .media-content p {
+        font-size: 16px;
+        margin-bottom: 18px;
+        color: #4d4d4d;
+        letter-spacing: 0.2px;
+        line-height: 26px;
+    }
+    .about-bottom p {
+        font-size: 18px;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 4em;
+    }
+    .about-bottom img {
+        margin-top: 5em;
+    }
+
+    .about-main-inner {
+        margin-top: 4em;
+        margin-bottom: 3em;
+    }
+    .media-content h4 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    .media-content p {
+        font-size: 16px;
+        margin-bottom: 18px;
+        color: #4d4d4d;
+        letter-spacing: 0.2px;
+        line-height: 26px;
+    }
+
+    /******=========== about page end ==============*******/
+
+    /******=========== Diseases page end ==============*******/
+
+    .head-title {
+        font-size: 25px;
+        display: inline-block;
+        padding: 12px 0px;
+        border-radius: 5px;
+        color: #f4be18;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .diseases-left h4 {
+        font-size: 22px;
+        margin: 0;
+        margin-bottom: 20px;
+        border-bottom: 3px solid #f4be18;
+        display: inline-block;
+        line-height: 45px;
+        margin-top: 15px;
+    }
+    .diseases-left ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    .diseases-left ul li {
+        padding: 6px 0;
+        font-size: 16px;
+    }
+    .diseases-left {
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+    }
+    .diseases-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .diseases-main .row {
+        margin-bottom: 5em;
+    }
+    .height40{
+        height: 40px;
+    }
+    ul.list-type {
+        list-style-type: disc !important;
+        padding-left: 20px;
+    }
+    .diseases-card{
+        width: 100%;
+        min-height: 395px;
+        overflow: hidden;
+        background-image: url(../img/diseases-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5%;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(105,105,105,1);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(105,105,105,1);
+        box-shadow: 0px 0px 10px 0px rgba(105,105,105,1);
+    }
+    .diseases-card-inner h4 {
+        font-size: 24px;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .diseases-card-inner ul {
+        padding: 0;
+        padding-left: 20px;
+        margin: 0;
+    }
+    .diseases-card-inner ul li {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 300;
+        padding: 4px 0;
+    }
+    .diseases-card2 {
+    /*-webkit-box-shadow: 0px 0px 10px 0px rgba(105,105,105,0.50);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(105,105,105,0.50);
+    box-shadow: 0px 0px 10px 0px rgba(105, 105, 105, 0.50);*/
+    border: 1px dashed #9e9e9e;
+    padding: 3%;
+    min-height: 250px;
+}
+.diseases-card2 .head-title {
+    margin-bottom: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+.diseases-card2 .blog-sec-readmore {
+    position: absolute;
+    bottom: 16px;
+    right: 50px;
+}
+
+
+/***== Diseases 1 ==**/
+
+.my-para {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.para-head {
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #005bb4;
+}
+.para-ul {
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.para-ul li {
+    font-size: 15px;
+    padding: 5px 0;
+}
+.diseases2-page .diseases-card {
+    min-height: 485px;
+}
+.diseases2-page .row {
+    margin-bottom: 2em;
+}
+.diseases2 .col-md-12 .head-title {
+    margin-bottom: 0;
+}
+.diseases2 .col-md-12 .para-head {
+    padding-top: 5px;
+}
+.diseases2 .col-md-12 .head-title {
+    margin-bottom: 5px;
+}
+.sub-para-head {
+    margin-top: 0;
+    font-size: 18px;
+    padding-left: 30px;
+}
+.sub-my-para {
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+.sub-para-head {
+    margin-top: 0;
+    font-size: 16px;
+    padding-left: 30px;
+    color: #00afef;
+}
+.service-span {
+    padding-bottom: 10px;
+    display: block;
+    font-weight: 600;
+}
+
+/**== Diseases 1 end ==**/
+
+
+/******=========== Diseases page end ==============*******/
+
+
+/******=========== service page ==============*******/
+
+.service-card .diseases-left {
+    height: 250px;
+}
+.service-card {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px !important;
+    box-shadow: 0 0px 1px 1px rgba(195,195,195,0.5);
+}
+.service-padding .diseases-right {
+    position: relative;
+}
+.service-padding .diseases-right p {
+    padding: 15px 0;
+    margin: 0;
+    font-size: 16px;
+    height: 217px;
+    overflow: hidden;
+    line-height: 26px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 90%;
+}
+.service-padding .diseases-right .blog-sec-readmore {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.diseases-main {
+    margin-bottom: 1em;
+}
+.nav-head-banner .navbar-nav li.active a,
+.nav-head-banner .navbar-nav li a:hover,
+.nav-head-banner .navbar-nav li.active a:hover {
+    background: transparent;
+    color: #f4be18;
+}
+
+/******=========== service page end ==============*******/
+
+
+
+
+

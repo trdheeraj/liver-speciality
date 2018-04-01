@@ -1,0 +1,276 @@
+
+
+
+
+
+/***========= Tab =============***/
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+.col-90{
+	width: 750px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.footer .liver-foot li {
+    border: 1px solid rgb(255, 255, 255);
+    display: inline-block;
+    margin: 5px 20px 5px 0;
+    padding: 2px 12px;
+}
+
+}
+
+/***========= tab end=============***/
+
+
+
+/***========= medium laptop =============***/
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+.col-90{
+	width: 970px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+}
+
+/***========= medium laptop end=============***/
+
+
+
+/***========= Desktop =============***/
+
+@media (min-width: 1200px) {
+
+.col-90{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+}
+
+/***========= Desktop end=============***/
+
+
+/***========= big Desktop =============***/
+
+@media (min-width: 1450px) {
+
+.col-90{
+	width: 1350px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+}
+
+/***========= big Desktop end =============***/
+
+
+/***========= mobile =============***/
+
+@media(max-width:767px) {
+
+.col-90{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+.footer .liver-foot li {
+    border: 1px solid rgb(255, 255, 255);
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 2px 12px;
+}
+.ul-left li a{ font-size:11px;}
+.top-head-section-inner {
+    padding-left: 5px;
+}
+.ul-right li a {
+    font-size: 13px;
+    margin: 0;
+}
+.nav-head-banner{ min-height:80px;}
+.navbar-toggle{ margin-top:25px; margin-right:0px;}
+.nav-head-banner .navbar-nav li {
+    padding: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background: #f4f4f4 none repeat scroll 0 0;
+    border-color: #e7e7e7;
+    padding: 0 15px;
+}
+.my-carousel .carousel-inner {
+    height: auto;
+}
+.banner-section .carousel-inner .item {
+    height: auto;
+}
+.banner-content {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 32%;
+    vertical-align: middle;
+}
+.banner-inner{ padding:8px 8px 0px 8px; width:auto;}
+.banner-inner h1 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-align: center;
+}
+.head-trail {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}
+.head-trail span {
+    display: block;
+    margin: 0;
+    padding-top: 0;
+}
+.common-div{ margin-top:40px;}
+.blue-div-1, .blue-div-2, .blue-div-3, .blue-div-4{ margin:15px;}
+.about-left {
+    height: auto;
+}
+.about-right{ margin-left:0; min-height:auto;}
+section.blog .common-div.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.left-contact {
+    margin-top: 20px;
+}
+section.footer{ padding:15px 0px;}
+.blog-card {
+    margin-bottom: 20px;
+}
+/*about-us*/
+.banner {
+    height: auto;
+}
+.banner h2 { font-size: 28px; top: 30%;}
+.common-padd {
+    padding: 15px 0;
+}
+.about-main-inner{ margin-top:0px; margin-bottom:15px;}
+.media-img-div {
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.media-content h4 {
+    font-size: 20px;
+}
+.about-bottom p{ width:80%;margin-bottom: 40px;}
+.about-bottom img {
+    margin-top: 30px;
+}
+.footer label{ margin-bottom:0px; margin-top:15px;}
+/*blog-page*/
+.blog-main {
+    margin-top: 0;
+}
+.blog-sec-img {
+    height: auto;
+}
+.blog-sec-img img{
+	width:100%;
+}
+.blog-sec-content {
+    margin-bottom: 20px;
+}
+.more-read {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.blog-input-div input{width:200px; }
+.blog-btn{ padding:10px 15px;}
+
+/*contact-us*/
+.contact-form {
+    display: block;
+    margin: 0 auto 30px;
+    overflow: hidden;
+    width: 90%;
+}
+.common-padd .title {
+    margin-top: 20px;
+}
+.contact-form button {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+/*diseases*/
+.diseases-card{ min-height:auto; margin-bottom:30px;}
+.diseases-main .row {
+    margin-bottom: 0;
+}
+.diseases-card2 {
+    min-height: auto;
+    padding: 15px 15px 30px;
+	margin-bottom:30px;
+}
+.diseases-card2 .blog-sec-readmore {
+    bottom: 15px;
+}
+.diseases2-page .diseases-card {
+    min-height: auto;
+	margin-bottom: 30px;
+}
+.head-title{ 
+	font-size:20px;
+	padding: 0;
+}
+.diseases-main {
+    margin-bottom: 0;
+}
+/*services*/
+.service-card .diseases-left {
+    height: auto;
+}
+.service-padding {
+    padding: 15px 15px 30px;
+}
+.service-padding .diseases-right .blog-sec-readmore {
+    bottom: -15px;
+}
+
+
+@media (min-width:320px) and (max-width:450px){
+	.banner-inner h1 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-align: center;
+}
+.head-trail {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}
+.head-trail span {
+    display: block;
+    margin: 0;
+    padding-top: 0;
+}
+.banner-content{top:22%;}
+}
+
+
+/***========= mobile end=============***/
